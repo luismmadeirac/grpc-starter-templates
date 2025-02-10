@@ -17,6 +17,21 @@ This is meant to be use by the generator-script.sh.
 - Dockerfile: All services have a Dockerfile to be use in the Tilt Configuration with k8s and minikube
 - K8s Configs (dev): Not included in this repo, used for the Tilt local development with minikube
 
+## Pre-Configured GRPC Routes
+
+All Sevices come pre configured with the following routes:
+
+- Status:
+- HealthCheck:
+
+## Monitoring
+
+All servicesare already pre-configured with monitoring with prometheus...
+
+## Middleware
+
+Configured middlewares information and instructions to be placed in here...
+
 ## Getting Starter
 
 Intructions to be placed in here
