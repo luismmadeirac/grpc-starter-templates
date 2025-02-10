@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package example;
+
+option go_package = "services/name";
+
+service ExampleService {
+    // Health check
+    rpc HealthCheck(HealthCheckRequest) returns (HealthCheckResponse) {}
+    // Basic status check
+    rpc Status(StatusRequest) returns (StatusResponse) {}
+}
+
+// Health check messages
+message HealthCheckRequest {}
+
+message HealthCheckResponse {
+  string status = 1;
+  string message = 2;
+}
+
+// Status check messages
+message StatusRequest {}
+
+message StatusResponse {
+  string service = 1;
+  string status = 2;
+}
