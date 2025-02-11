@@ -27,14 +27,13 @@ All templates include:
 
 ## Getting Started
 
-1. Choose a template that matches your technology stack
-2. Use the service generation script:
+1. Use the service generation script:
 
    ```bash
    make new-service SERVICE_TYPE=<language> SERVICE_NAME=<name>
    ```
 
-3. Follow the language-specific README in the generated service directory
+2. Follow the language-specific README in the generated service directory
 
 ## Template Structure
 
@@ -73,15 +72,16 @@ Templates include infrastructure configurations:
 
 ### Local Development
 
-1. Clone the template repository
-2. Generate a new service:
+**Note the generate script is not part of this repository.**
+
+1. Generate a new service:
 
    ```bash
    make new-service SERVICE_TYPE=go SERVICE_NAME=my-service
    ```
 
-3. Navigate to the service directory
-4. Follow language-specific development instructions
+2. Navigate to the service directory
+3. Follow language-specific development instructions
 
 ## Contributing
 
