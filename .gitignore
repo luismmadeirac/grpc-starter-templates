@@ -1,32 +1,105 @@
-# compiled output
-dist
-node_modules
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
 
-# Logs
-logs
+# OS files
+.DS_Store
+Thumbs.db
+
+# Binary files
+bin/
+dist/
+build/
+
+# Dependency directories
+node_modules/
+vendor/
+venv/
+__pycache__/
+*.egg-info/
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+*.ear
+*.o
+*.a
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env.local
+
+# Log files
 *.log
+logs/
+log/
+
+# Test coverage
+coverage/
+.coverage
+htmlcov/
+
+# Build output
+target/
+out/
+build/
+dist/
+
+# Language specific
+# Go
+go.sum
+
+# Node
+package-lock.json
+yarn.lock
 npm-debug.log*
-pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
 
-# OS
-.DS_Store
+# Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+.tox/
+.pytest_cache/
 
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+# Java
+*.class
+.gradle/
+build/
+target/
 
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+# C++
+*.o
+*.obj
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
 
+# Protocol Buffers
+*.pb.go
+*.pb.js
+*_pb2.py
+*_pb2_grpc.py
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary files
+tmp/
+temp/
